@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
+import Projects from "./containers/Projects/Projects";
 
 function App() {
 	const [count, setCount] = useState(0);
@@ -17,7 +18,7 @@ function App() {
 				</NavigationBar>
 				<Routes>
 					<Route path="/" element={<p>Home</p>} />
-					<Route path="/projects" element={<p>Projects</p>} />
+					<Route path="/projects" element={<Projects />} />
 					<Route path="/contact" element={<p>Contact</p>} />
 				</Routes>
 			</BrowserRouter>
