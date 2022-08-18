@@ -16,21 +16,25 @@ const convertLanguagesToIcons = (language) => {
 			return <i className="devicon-react-original" title={language}></i>;
 		case "firebase":
 			return <i className="devicon-firebase-plain" title={language}></i>;
+		case "jest":
+			return <i className="devicon-jest-plain" title={language}></i>;
 		default:
 			return <i className="devicon-html5-plain" title={language}></i>;
 	}
 };
 
-function ProjectPreview({ title, data }) {
+function ProjectPreview({ index, title, data }) {
 	const { image, project_link, source_link, languages } = data;
+
+	const preview_class =
+		index % 2
+			? [styles.ProjectPreview__Image, styles.Odd].join(" ")
+			: [styles.ProjectPreview__Image, styles.Even].join(" ");
+
 	return (
 		<section className={styles.ProjectPreview}>
 			<a href={project_link} className={styles.ProjectPreview__Link}>
-				<img
-					src={image}
-					alt={title}
-					className={styles.ProjectPreview__Image}
-				/>
+				<img src={image} alt={title} className={preview_class} />
 			</a>
 			<p className={styles.ProjectPreview__Languages}>
 				{languages.map((language) => convertLanguagesToIcons(language))}

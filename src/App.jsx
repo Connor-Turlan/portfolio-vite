@@ -1,6 +1,6 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import "./App.css";
+import styles from "./App.module.scss";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
 import Projects from "./containers/Projects/Projects";
@@ -9,7 +9,7 @@ function App() {
 	const [count, setCount] = useState(0);
 
 	return (
-		<div className="App">
+		<div className={styles.App}>
 			<BrowserRouter>
 				<NavigationBar>
 					<NavLink to="/">Home</NavLink>

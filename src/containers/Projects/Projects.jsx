@@ -4,7 +4,11 @@ import styles from "./Projects.module.scss";
 import projects from "../../data/projects.json";
 
 function Projects(props) {
-	return <ProjectList projects={projects} />;
+	return (
+		<main className={styles.Projects}>
+			<ProjectList projects={projects} />
+		</main>
+	);
 }
 
 export default Projects;

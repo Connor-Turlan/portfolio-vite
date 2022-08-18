@@ -5,6 +5,9 @@
 @use "/styles/modules/defaults.scss";
 
 .ProjectDescription {
+	display: flex;
+	flex-direction: column;
+
 	&__Heading {
 		@include devices.phone {
 			width: 80vw;
@@ -12,6 +15,9 @@
 		@include devices.tablet {
 			width: 80vw;
 		}
+
+		margin: 0;
+		padding: 0px 20px;
 	}
 
 	&__Body {
@@ -23,5 +29,8 @@
 		@include devices.tablet {
 			order: -1;
 		}
+
+		margin: 0;
+		padding: 0px 20px;
 	}
 }
