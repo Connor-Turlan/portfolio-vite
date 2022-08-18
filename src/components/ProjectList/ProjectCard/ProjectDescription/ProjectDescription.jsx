@@ -1,10 +1,11 @@
 import styles from "./ProjectDescription.module.scss";
 
-function ProjectDescription({ title, content }) {
+function ProjectDescription({ data }) {
+	const { title, content } = data;
 	return (
 		<section className={styles.ProjectDescription}>
 			<h2 className={styles.ProjectDescription__Heading}>{title}</h2>
-			<p>{content}</p>
+			<p className={styles.ProjectDescription__Body}>{content}</p>
 		</section>
 	);
 }

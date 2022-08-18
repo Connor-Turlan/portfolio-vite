@@ -7,15 +7,20 @@ function ProjectCard({ index, project }) {
 		title: "JavaScript Calculator",
 		content: "A calculator written with HTML, CSS, and JavaScript",
 	};
-	project.preview = {};
-	const { title, content } = project.description;
-	const { image, link, languages } = project.preview;
-	const desc = <ProjectDescription title={title} content={content} />;
-	const preview = <ProjectPreview></ProjectPreview>;
+	project.preview = {
+		image: "public/images/calculator.PNG",
+		project_link: "https://connor-turlan.github.io/JSCalculator",
+		source_link: "https://github.com/Connor-Turlan/JSCalculator",
+		languages: ["html", "css", "scss", "javascript"],
+	};
+
+	const { title } = project.description;
+	const desc = <ProjectDescription data={project.description} />;
+	const preview = <ProjectPreview title={title} data={project.preview} />;
 
 	return (
 		<article className={styles.ProjectCard}>
-			{index % 2 ? (desc, preview) : (preview, desc)}
+			{index % 2 ? [preview, desc] : [desc, preview]}
 		</article>
 	);
 }

@@ -1,1 +1,27 @@
-.ProjectDescription {}
+@use "/styles/partials/palette";
+@use "/styles/partials/typography";
+@use "/styles/partials/devices";
+
+@use "/styles/modules/defaults.scss";
+
+.ProjectDescription {
+	&__Heading {
+		@include devices.phone {
+			width: 80vw;
+		}
+		@include devices.tablet {
+			width: 80vw;
+		}
+	}
+
+	&__Body {
+		display: flex;
+		flex-direction: column;
+		@include devices.phone {
+			order: -1;
+		}
+		@include devices.tablet {
+			order: -1;
+		}
+	}
+}

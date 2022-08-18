@@ -5,7 +5,13 @@ import styles from "./ProjectList.module.scss";
 function ProjectList({ projects }) {
 	return (
 		<CardList className={styles.ProjectList}>
-			<ProjectCard index={0} project={{}}></ProjectCard>
+			{projects.map((project, index) => (
+				<ProjectCard
+					key={index}
+					index={index}
+					project={project}
+				></ProjectCard>
+			))}
 		</CardList>
 	);
 }

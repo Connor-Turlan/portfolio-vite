@@ -1,0 +1,50 @@
+[
+	{
+		"description": {
+			"title": "JavaScript Calculator",
+			"content": "A calculator written with HTML, CSS, and JavaScript"
+		},
+		"preview": {
+			"image": "public/images/calculator.PNG",
+			"project_link": "https://connor-turlan.github.io/JSCalculator",
+			"source_link": "https://github.com/Connor-Turlan/JSCalculator",
+			"languages": ["html", "css", "scss", "javascript"]
+		}
+	},
+	{
+		"description": {
+			"title": "JavaScript Calculator",
+			"content": "A calculator written with HTML, CSS, and JavaScript"
+		},
+		"preview": {
+			"image": "public/images/calculator.PNG",
+			"project_link": "https://connor-turlan.github.io/JSCalculator",
+			"source_link": "https://github.com/Connor-Turlan/JSCalculator",
+			"languages": ["html", "css", "scss", "javascript"]
+		}
+	},
+	{
+		"description": {
+			"title": "JavaScript Calculator",
+			"content": "A calculator written with HTML, CSS, and JavaScript"
+		},
+		"preview": {
+			"image": "public/images/calculator.PNG",
+			"project_link": "https://connor-turlan.github.io/JSCalculator",
+			"source_link": "https://github.com/Connor-Turlan/JSCalculator",
+			"languages": ["html", "css", "scss", "javascript"]
+		}
+	},
+	{
+		"description": {
+			"title": "JavaScript Calculator",
+			"content": "A calculator written with HTML, CSS, and JavaScript"
+		},
+		"preview": {
+			"image": "public/images/calculator.PNG",
+			"project_link": "https://connor-turlan.github.io/JSCalculator",
+			"source_link": "https://github.com/Connor-Turlan/JSCalculator",
+			"languages": ["html", "css", "scss", "javascript"]
+		}
+	}
+]
