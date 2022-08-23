@@ -18,6 +18,8 @@ const convertLanguagesToIcons = (language) => {
 			return <i className="devicon-firebase-plain" title={language}></i>;
 		case "jest":
 			return <i className="devicon-jest-plain" title={language}></i>;
+		case "java":
+			return <i class="devicon-java-plain"></i>;
 		default:
 			return <i className="devicon-html5-plain" title={language}></i>;
 	}
