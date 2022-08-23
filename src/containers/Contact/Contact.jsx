@@ -1,7 +1,7 @@
-import ContactList from "./ContactList/ContactList";
+import ContactList from "../../components/ContactList/ContactList";
 import styles from "./Contact.module.scss";
 import contacts from "../../data/contacts.json";
-import ContactInfo from "./ContactList/ContactInfo/ContactInfo";
+import ContactInfo from "../../components/ContactList/ContactInfo/ContactInfo";
 
 // copy the content of the email contact element to the clipboard.
 function copyEmailToClipboard(event) {

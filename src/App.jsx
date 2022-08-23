@@ -17,11 +17,13 @@ function App() {
 					<NavLink to="/projects">Projects</NavLink>
 					<NavLink to="/contact">Contact</NavLink>
 				</NavigationBar>
-				<Routes>
-					<Route path="/" element={<p>Home</p>} />
-					<Route path="/projects" element={<Projects />} />
-					<Route path="/contact" element={<Contact />} />
-				</Routes>
+				<div className={styles.Body}>
+					<Routes>
+						<Route path="/" element={<p>Home</p>} />
+						<Route path="/projects" element={<Projects />} />
+						<Route path="/contact" element={<Contact />} />
+					</Routes>
+				</div>
 			</BrowserRouter>
 		</div>
 	);
