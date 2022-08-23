@@ -1,3 +1,4 @@
+import Card from "../../CardList/Card/Card";
 import styles from "./ProjectCard.module.scss";
 import ProjectDescription from "./ProjectDescription/ProjectDescription";
 import ProjectPreview from "./ProjectPreview/ProjectPreview";
@@ -9,14 +10,10 @@ function ProjectCard({ index, project }) {
 		<ProjectPreview index={index} title={title} data={project.preview} />
 	);
 
-	const card_class =
-		index % 2
-			? [styles.ProjectCard, styles.Odd].join(" ")
-			: [styles.ProjectCard, styles.Even].join(" ");
 	return (
-		<article className={card_class}>
+		<Card isEven={index % 2}>
 			{index % 2 ? [preview, desc] : [desc, preview]}
-		</article>
+		</Card>
 	);
 }
 
