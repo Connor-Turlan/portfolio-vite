@@ -6,32 +6,21 @@
 
 .Card {
 	@include defaults.flex-center;
+	width: 800px;
 	@include devices.phone {
 		flex-direction: column;
+		width: 100vw;
 	}
 	@include devices.tablet {
 		flex-direction: column;
+		width: 100vw;
 	}
 	@include devices.desktop {
 		flex-direction: row;
+		width: 800px;
 	}
 
 	padding: 40px;
-
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	justify-self: center;
-
-	@include devices.phone {
-		width: 100vw;
-	}
-	@include devices.tablet {
-		width: 100vw;
-	}
-	@include devices.desktop {
-		width: 800px;
-	}
 
 	color: palette.$highlight;
 	background-color: palette.$light;

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import styles from "./App.module.scss";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
+import Home from "./containers/Home/Home";
 import Projects from "./containers/Projects/Projects";
 import Contact from "./containers/Contact/Contact";
 
@@ -19,7 +19,7 @@ function App() {
 				</NavigationBar>
 				<div className={styles.Body}>
 					<Routes>
-						<Route path="/" element={<p>Home</p>} />
+						<Route path="/" element={<Home />} />
 						<Route path="/projects" element={<Projects />} />
 						<Route path="/contact" element={<Contact />} />
 					</Routes>
