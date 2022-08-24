@@ -1,0 +1,12 @@
+[
+	{
+		"title": "Linked In",
+		"link": "https://www.linkedin.com/in/connor-turlan/",
+		"icon": "devicon-linkedin-plain-wordmark"
+	},
+	{
+		"title": "GitHub",
+		"link": "https://github.com/Connor-Turlan",
+		"icon": "devicon-github-original-wordmark"
+	}
+]
