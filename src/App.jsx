@@ -13,15 +13,21 @@ function App() {
 		<div className={styles.App}>
 			<BrowserRouter>
 				<NavigationBar>
-					<NavLink to="/">Home</NavLink>
-					<NavLink to="/projects">Projects</NavLink>
-					<NavLink to="/contact">Contact</NavLink>
+					<NavLink to="/portfolio-vite/">Home</NavLink>
+					<NavLink to="/portfolio-vite/projects">Projects</NavLink>
+					<NavLink to="/portfolio-vite/contact">Contact</NavLink>
 				</NavigationBar>
 				<div className={styles.Body}>
 					<Routes>
-						<Route path="/" element={<Home />} />
-						<Route path="/projects" element={<Projects />} />
-						<Route path="/contact" element={<Contact />} />
+						<Route path="/portfolio-vite/" element={<Home />} />
+						<Route
+							path="/portfolio-vite/projects"
+							element={<Projects />}
+						/>
+						<Route
+							path="/portfolio-vite/contact"
+							element={<Contact />}
+						/>
 					</Routes>
 				</div>
 			</BrowserRouter>
