@@ -1,6 +1,0 @@
-@use "/styles/modules/defaults.scss";
-
-.CardList {
-	@include defaults.flex-center;
-	flex-direction: column;
-}
