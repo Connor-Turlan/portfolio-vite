@@ -5,7 +5,7 @@
 			"content": "A calculator written with HTML, CSS, and JavaScript"
 		},
 		"preview": {
-			"image": "/public/images/calculator.PNG",
+			"image": "images/calculator.PNG",
 			"project_link": "https://connor-turlan.github.io/JSCalculator",
 			"source_link": "https://github.com/Connor-Turlan/JSCalculator",
 			"languages": ["html", "css", "sass", "javascript"]
@@ -17,7 +17,7 @@
 			"content": "A translator for converting between English and Morse code. Written HTML, CSS, and JavaScript"
 		},
 		"preview": {
-			"image": "/public/images/morseTranslator.PNG",
+			"image": "images/morseTranslator.PNG",
 			"project_link": "https://connor-turlan.github.io/Morse-Code-Translator",
 			"source_link": "https://github.com/Connor-Turlan/Morse-Code-Translator",
 			"languages": ["html", "css", "sass", "javascript", "jest"]
@@ -29,7 +29,7 @@
 			"content": "An interpreter for programs written in the esoteric language Brainfunk."
 		},
 		"preview": {
-			"image": "/public/images/brainfunk.PNG",
+			"image": "images/brainfunk.PNG",
 			"project_link": "https://connor-turlan.github.io/Brain-Funk-Interpreter",
 			"source_link": "https://github.com/Connor-Turlan/Brain-Funk-Interpreter",
 			"languages": ["html", "css", "sass", "javascript"]
@@ -41,7 +41,7 @@
 			"content": "A search front-end using Google Books' search API."
 		},
 		"preview": {
-			"image": "/public/images/google-books.PNG",
+			"image": "images/google-books.PNG",
 			"project_link": "https://connor-turlan.github.io/google-books-api",
 			"source_link": "https://github.com/Connor-Turlan/google-books-api",
 			"languages": ["html", "css", "sass", "javascript"]
@@ -53,7 +53,7 @@
 			"content": "A mock ecommerce store using the React.js front-end framework, and firestore for the database backend."
 		},
 		"preview": {
-			"image": "/public/images/react-estore.PNG",
+			"image": "images/react-estore.PNG",
 			"project_link": "https://github.com/Connor-Turlan/react-estore",
 			"source_link": "https://github.com/Connor-Turlan/react-estore",
 			"languages": [
@@ -72,7 +72,7 @@
 			"content": "A graphical interface for solving Sudoku puzzles."
 		},
 		"preview": {
-			"image": "/public/images/unavailable.png",
+			"image": "images/unavailable.png",
 			"project_link": "https://connor-turlan.github.io/sudoku-solver-vite",
 			"source_link": "https://github.com/Connor-Turlan/sudoku-solver-vite",
 			"languages": ["html", "css", "sass", "javascript", "react"]
@@ -84,7 +84,7 @@
 			"content": "A Java command line application for playing Wordle."
 		},
 		"preview": {
-			"image": "/public/images/unavailable.png",
+			"image": "images/unavailable.png",
 			"project_link": "https://github.com/Connor-Turlan/wordle-java",
 			"source_link": "https://github.com/Connor-Turlan/wordle-java",
 			"languages": ["java"]
