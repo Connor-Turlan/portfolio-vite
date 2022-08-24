@@ -1,0 +1,30 @@
+@use "/styles/partials/palette";
+@use "/styles/partials/typography";
+@use "/styles/partials/devices";
+
+@use "/styles/modules/defaults.scss";
+
+.ContactInfo {
+	@include defaults.flex-center;
+
+	margin: 10px;
+
+	font-size: 128px;
+
+	&__Link {
+		color: palette.$light;
+		text-decoration: none;
+
+		&:visited {
+			color: palette.$light;
+		}
+
+		&:hover {
+			color: palette.$highlight;
+		}
+
+		&:active {
+			color: white;
+		}
+	}
+}

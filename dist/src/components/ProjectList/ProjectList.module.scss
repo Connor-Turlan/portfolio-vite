@@ -1,0 +1,6 @@
+@use "/styles/modules/defaults.scss";
+
+.ProjectList {
+	@include defaults.flex-center;
+	flex-direction: column;
+}

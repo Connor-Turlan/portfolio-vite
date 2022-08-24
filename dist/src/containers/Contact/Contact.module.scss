@@ -1,0 +1,14 @@
+@use "/styles/partials/palette";
+@use "/styles/partials/typography";
+@use "/styles/partials/devices";
+
+@use "/styles/modules/defaults.scss";
+
+.Contact {
+	height: calc(100vh - 150px);
+	padding: 40px;
+
+	background-color: palette.$neutral;
+
+	font-family: typography.$main;
+}
