@@ -8,30 +8,45 @@ import Contact from "./containers/Contact/Contact";
 
 function App() {
 	const [count, setCount] = useState(0);
+	const [page, setPage] = useState("");
+
+	console.log(page);
+	let body = <Home />;
+	switch (page) {
+		default:
+			body = <Home />;
+			break;
+		case "projects":
+			body = <Projects />;
+			break;
+		case "contact":
+			body = <Contact />;
+			break;
+	}
 
 	return (
-		<div className={styles.App}>
-			<BrowserRouter>
+		<BrowserRouter>
+			<div className={styles.App}>
 				<NavigationBar>
-					<NavLink to="/portfolio-vite/">Home</NavLink>
-					<NavLink to="/portfolio-vite/projects">Projects</NavLink>
-					<NavLink to="/portfolio-vite/contact">Contact</NavLink>
+					<NavLink onClick={() => setPage("")} to="/portfolio-vite/">
+						Home
+					</NavLink>
+					<NavLink
+						onClick={() => setPage("projects")}
+						to="/portfolio-vite/?projects"
+					>
+						Projects
+					</NavLink>
+					<NavLink
+						onClick={() => setPage("contact")}
+						to="/portfolio-vite/?contact"
+					>
+						Contact
+					</NavLink>
 				</NavigationBar>
-				<div className={styles.Body}>
-					<Routes>
-						<Route path="/portfolio-vite/" element={<Home />} />
-						<Route
-							path="/portfolio-vite/projects"
-							element={<Projects />}
-						/>
-						<Route
-							path="/portfolio-vite/contact"
-							element={<Contact />}
-						/>
-					</Routes>
-				</div>
-			</BrowserRouter>
-		</div>
+				<div className={styles.Body}>{body}</div>
+			</div>
+		</BrowserRouter>
 	);
 }
 
