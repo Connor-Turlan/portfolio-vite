@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./App.module.scss";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
-import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
+import { BrowserRouter, NavLink } from "react-router-dom";
 import Home from "./containers/Home/Home";
 import Projects from "./containers/Projects/Projects";
 import Contact from "./containers/Contact/Contact";
@@ -10,7 +10,7 @@ function App() {
 	const [count, setCount] = useState(0);
 	const [page, setPage] = useState("");
 
-	console.log(page);
+	// handle page changes.
 	let body = <Home />;
 	switch (page) {
 		default:
