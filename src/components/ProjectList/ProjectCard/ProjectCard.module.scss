@@ -16,6 +16,8 @@
 		flex-direction: row;
 	}
 
+	margin: 0px;
+	width: 720px;
 	padding: 40px;
 
 	display: flex;
@@ -34,7 +36,6 @@
 	}
 
 	color: palette.$highlight;
-	background-color: palette.$light;
 
 	box-shadow: 0px 6px 24px palette.$shadow;
 

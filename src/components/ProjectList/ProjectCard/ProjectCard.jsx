@@ -11,7 +11,7 @@ function ProjectCard({ index, project }) {
 	);
 
 	return (
-		<Card isEven={index % 2}>
+		<Card className={styles.ProjectCard} isEven={index % 2}>
 			{index % 2 ? [preview, desc] : [desc, preview]}
 		</Card>
 	);
