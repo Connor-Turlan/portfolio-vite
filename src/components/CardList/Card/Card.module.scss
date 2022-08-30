@@ -31,13 +31,13 @@
 }
 
 .Odd {
-	background-color: palette.$neutral;
-	/* background-color: palette.$bg-white;
-	border-left: 10px solid palette.$neutral; */
-}
-
-.Even {
 	background-color: palette.$light;
 	/* background-color: palette.$bg-white;
 	border-left: 10px solid palette.$light; */
+}
+
+.Even {
+	background-color: palette.$neutral;
+	/* background-color: palette.$bg-white;
+	border-left: 10px solid palette.$neutral; */
 }

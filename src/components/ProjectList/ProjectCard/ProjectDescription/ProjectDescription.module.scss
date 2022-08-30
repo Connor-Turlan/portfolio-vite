@@ -9,6 +9,15 @@
 	flex-direction: column;
 	padding: 40px;
 
+	@include devices.phone {
+		padding-bottom: 0px;
+		order: -1;
+	}
+	@include devices.tablet {
+		padding-bottom: 0px;
+		order: -1;
+	}
+
 	&__Heading {
 		@include devices.phone {
 			width: 70vw;
@@ -25,10 +34,10 @@
 		display: flex;
 		flex-direction: column;
 		@include devices.phone {
-			order: -1;
+			order: 1;
 		}
 		@include devices.tablet {
-			order: -1;
+			order: 1;
 		}
 
 		margin: 0;

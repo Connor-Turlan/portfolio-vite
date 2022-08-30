@@ -9,6 +9,13 @@
 	margin: 0;
 	padding: 40px;
 
+	@include devices.phone {
+		padding-top: 0px;
+	}
+	@include devices.tablet {
+		padding-top: 0px;
+	}
+
 	&__Image {
 		width: 200px;
 		height: 200px;
@@ -44,16 +51,18 @@
 		font-size: 32px;
 		letter-spacing: 10px;
 
+		color: palette.$font-white;
+
 		margin: 0;
 	}
 }
 
 .Odd {
-	background: #774360;
-	box-shadow: 20px 20px 36px #532f43, -20px -20px 36px #9b577d;
+	background: #b25068;
+	box-shadow: 20px 20px 36px #7d3849, -20px -20px 36px #e76887;
 }
 
 .Even {
-	background: #b25068;
-	box-shadow: 20px 20px 36px #7d3849, -20px -20px 36px #e76887;
+	background: #774360;
+	box-shadow: 20px 20px 36px #532f43, -20px -20px 36px #9b577d;
 }
