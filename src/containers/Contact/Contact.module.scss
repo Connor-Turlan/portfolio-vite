@@ -5,8 +5,12 @@
 @use "/styles/modules/defaults.scss";
 
 .Contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
 	height: calc(100vh - 70px);
-	padding: 40px;
+	padding: 0px 40px;
 
 	background-color: palette.$neutral;
 	font-family: typography.$main;

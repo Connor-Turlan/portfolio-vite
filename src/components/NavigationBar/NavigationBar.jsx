@@ -1,6 +1,9 @@
+import { useState } from "react";
 import styles from "./NavigationBar.module.scss";
 
 function NavigationBar({ children }) {
+	const [hidden, setHidden] = useState(true);
+
 	return (
 		<nav className={styles.NavigationBar}>
 			<input type="checkbox" className={styles.NavigationBar__Toggle} />
