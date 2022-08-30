@@ -8,7 +8,7 @@
 	@include defaults.flex-center;
 	flex-direction: column;
 
-	height: 80vh;
+	min-height: 80vh;
 
 	&__Image {
 		display: block;

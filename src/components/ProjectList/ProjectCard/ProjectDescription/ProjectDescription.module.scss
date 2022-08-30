@@ -11,10 +11,10 @@
 
 	&__Heading {
 		@include devices.phone {
-			width: 80vw;
+			width: 70vw;
 		}
 		@include devices.tablet {
-			width: 80vw;
+			width: 70vw;
 		}
 
 		margin: 0;
