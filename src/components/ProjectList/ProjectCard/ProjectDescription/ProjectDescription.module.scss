@@ -7,6 +7,7 @@
 .ProjectDescription {
 	display: flex;
 	flex-direction: column;
+	padding: 40px;
 
 	&__Heading {
 		@include devices.phone {
