@@ -16,8 +16,7 @@ function BusinessCard(props) {
 				</ul>
 				<img
 					src="images/connor.jpg"
-					alt=""
-					srcset=""
+					alt="Connor"
 					className={styles.BusinessCard__Image}
 				/>
 			</article>

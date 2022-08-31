@@ -1,12 +1,16 @@
 import styles from "./ContactInfo.module.scss";
 
-function ContactInfo({ data }) {
-	const { title, link, icon } = data;
+function ContactInfo({ id, value, data }) {
+	const { title, action, icon } = data;
 	return (
-		<li className={styles.ContactInfo}>
-			<a className={styles.ContactInfo__Link} title={title} href={link}>
+		<li id={id} value={value} className={styles.ContactInfo}>
+			<span
+				className={styles.ContactInfo__Link}
+				title={title}
+				onClick={action}
+			>
 				<i className={icon}></i>
-			</a>
+			</span>
 		</li>
 	);
 }
