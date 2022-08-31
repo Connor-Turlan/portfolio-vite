@@ -7,4 +7,3 @@ A rewrite of my personal portfolio using the lightweight react framework provide
 ## Future Plans
 
 -   Update styles to be a lil less colourful.
--   migrate portfolio to main.

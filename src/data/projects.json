@@ -6,8 +6,8 @@
 		},
 		"preview": {
 			"image": "images/calculator.png",
-			"project_link": "https://connor-turlan.github.io/JSCalculator",
-			"source_link": "https://github.com/Connor-Turlan/JSCalculator",
+			"project_link": "https://connorturlan.github.io/JSCalculator",
+			"source_link": "https://github.com/connorturlan/JSCalculator",
 			"languages": ["html", "css", "sass", "javascript"]
 		}
 	},
@@ -18,8 +18,8 @@
 		},
 		"preview": {
 			"image": "images/morseTranslator.png",
-			"project_link": "https://connor-turlan.github.io/Morse-Code-Translator",
-			"source_link": "https://github.com/Connor-Turlan/Morse-Code-Translator",
+			"project_link": "https://connorturlan.github.io/Morse-Code-Translator",
+			"source_link": "https://github.com/connorturlan/Morse-Code-Translator",
 			"languages": ["html", "css", "sass", "javascript", "jest"]
 		}
 	},
@@ -30,8 +30,8 @@
 		},
 		"preview": {
 			"image": "images/brainfunk.png",
-			"project_link": "https://connor-turlan.github.io/Brain-Funk-Interpreter",
-			"source_link": "https://github.com/Connor-Turlan/Brain-Funk-Interpreter",
+			"project_link": "https://connorturlan.github.io/Brain-Funk-Interpreter",
+			"source_link": "https://github.com/connorturlan/Brain-Funk-Interpreter",
 			"languages": ["html", "css", "sass", "javascript"]
 		}
 	},
@@ -42,8 +42,8 @@
 		},
 		"preview": {
 			"image": "images/google-books.png",
-			"project_link": "https://connor-turlan.github.io/google-books-api",
-			"source_link": "https://github.com/Connor-Turlan/google-books-api",
+			"project_link": "https://connorturlan.github.io/google-books-api",
+			"source_link": "https://github.com/connorturlan/google-books-api",
 			"languages": ["html", "css", "sass", "javascript"]
 		}
 	},
@@ -54,8 +54,8 @@
 		},
 		"preview": {
 			"image": "images/react-estore.png",
-			"project_link": "https://github.com/Connor-Turlan/react-estore",
-			"source_link": "https://github.com/Connor-Turlan/react-estore",
+			"project_link": "https://github.com/connorturlan/react-estore",
+			"source_link": "https://github.com/connorturlan/react-estore",
 			"languages": [
 				"html",
 				"css",
@@ -73,8 +73,8 @@
 		},
 		"preview": {
 			"image": "images/unavailable.png",
-			"project_link": "https://connor-turlan.github.io/sudoku-solver-vite",
-			"source_link": "https://github.com/Connor-Turlan/sudoku-solver-vite",
+			"project_link": "https://connorturlan.github.io/sudoku-solver-vite",
+			"source_link": "https://github.com/connorturlan/sudoku-solver-vite",
 			"languages": ["html", "css", "sass", "javascript", "react"]
 		}
 	},
@@ -85,8 +85,8 @@
 		},
 		"preview": {
 			"image": "images/unavailable.png",
-			"project_link": "https://github.com/Connor-Turlan/wordle-java",
-			"source_link": "https://github.com/Connor-Turlan/wordle-java",
+			"project_link": "https://github.com/connorturlan/wordle-java",
+			"source_link": "https://github.com/connorturlan/wordle-java",
 			"languages": ["java"]
 		}
 	}

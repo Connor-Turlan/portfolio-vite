@@ -28,19 +28,16 @@ function App() {
 		<BrowserRouter>
 			<div className={styles.App}>
 				<NavigationBar>
-					<NavLink onClick={() => setPage("")} to="/portfolio-vite/">
+					<NavLink onClick={() => setPage("")} to="/">
 						Home
 					</NavLink>
 					<NavLink
 						onClick={() => setPage("projects")}
-						to="/portfolio-vite/?projects"
+						to="/?projects"
 					>
 						Projects
 					</NavLink>
-					<NavLink
-						onClick={() => setPage("contact")}
-						to="/portfolio-vite/?contact"
-					>
+					<NavLink onClick={() => setPage("contact")} to="/?contact">
 						Contact
 					</NavLink>
 				</NavigationBar>
