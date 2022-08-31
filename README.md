@@ -8,3 +8,4 @@ A rewrite of my personal portfolio using the lightweight react framework provide
 
 -   Update styles to be a lil less colourful.
 -   Scroll to top of page when navigating between pages.
+-   Add pointer style to contact links.
