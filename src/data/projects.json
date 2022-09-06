@@ -72,7 +72,7 @@
 			"content": "A graphical interface for solving Sudoku puzzles."
 		},
 		"preview": {
-			"image": "images/unavailable.png",
+			"image": "https://raw.githubusercontent.com/connorturlan/sudoku-solver-vite/main/preview.png",
 			"project_link": "https://connorturlan.github.io/sudoku-solver-vite",
 			"source_link": "https://github.com/connorturlan/sudoku-solver-vite",
 			"languages": ["html", "css", "sass", "javascript", "react"]
