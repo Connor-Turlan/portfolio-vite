@@ -19,8 +19,6 @@ jobs:
               with:
                   node-version: ${{ matrix.node-version }}
             - run: npm i
-
-            - name: deploy
               with:
                   target-branch: gh-pages
             - run: npm run build
