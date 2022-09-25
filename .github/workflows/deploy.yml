@@ -26,3 +26,4 @@ jobs:
               with:
                   target_branch: gh-pages
                   build_dir: dist
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
