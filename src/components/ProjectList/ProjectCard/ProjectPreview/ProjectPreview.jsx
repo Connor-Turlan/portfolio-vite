@@ -20,6 +20,8 @@ const convertLanguagesToIcons = (language) => {
 			return <i className="devicon-jest-plain" title={language}></i>;
 		case "java":
 			return <i class="devicon-java-plain"></i>;
+		case "python":
+			return <i class="devicon-python-plain"></i>;
 		default:
 			return <i className="devicon-html5-plain" title={language}></i>;
 	}
