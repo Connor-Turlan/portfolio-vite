@@ -19,6 +19,10 @@ jobs:
               with:
                   node-version: ${{ matrix.node-version }}
             - run: npm i
+            - run: npm run build
+
+            - name: Deploy
+              uses: crazy-max/ghaction-github-pages@v1
               with:
                   target-branch: gh-pages
-            - run: npm run build
+                  target-dir: build
