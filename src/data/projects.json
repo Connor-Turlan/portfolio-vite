@@ -108,7 +108,7 @@
 			"content": "ReactJS front-end built for the Python File Server module."
 		},
 		"preview": {
-			"image": "https://raw.githubusercontent.com/connorturlan/file-server-react/main/docs/preivew.png",
+			"image": "https://raw.githubusercontent.com/connorturlan/file-server-react/main/docs/preview.png",
 			"project_link": "https://github.com/connorturlan/file-server-react",
 			"source_link": "https://github.com/connorturlan/file-server-react",
 			"languages": ["html", "sass", "react", "javascript", "python"]
