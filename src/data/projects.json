@@ -96,10 +96,22 @@
 			"content": "A Python webserver allowing for additions of custom web modules. Using the HTTPServer module for functionality and unittest module for automated testing."
 		},
 		"preview": {
-			"image": "images/unavailable.png",
+			"image": "https://raw.githubusercontent.com/connorturlan/web-server-py/main/docs/preview.png",
 			"project_link": "https://github.com/connorturlan/web-server-py",
 			"source_link": "https://github.com/connorturlan/web-server-py",
 			"languages": ["python"]
+		}
+	},
+	{
+		"description": {
+			"title": "React File Server",
+			"content": "ReactJS front-end built for the Python File Server module."
+		},
+		"preview": {
+			"image": "https://raw.githubusercontent.com/connorturlan/file-server-react/main/docs/preivew.png",
+			"project_link": "https://github.com/connorturlan/file-server-react",
+			"source_link": "https://github.com/connorturlan/file-server-react",
+			"languages": ["html", "sass", "react", "javascript", "python"]
 		}
 	}
 ]
