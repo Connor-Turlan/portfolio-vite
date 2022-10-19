@@ -4,6 +4,18 @@
 
 @use "../modules/defaults.scss";
 
+$shadow: palette.$shadow;
+$background: palette.$light;
+$title-font: palette.$highlight;
+
+$button-font: palette.$dark;
+$button-shadow: palette.$shadow;
+
+$button-background: red; //palette.$light;
+$button-hover: palette.$bright;
+$button-active: palette.$highlight;
+$button-visited: palette.$light;
+
 .navbar {
 	position: fixed;
 	top: 0px;
@@ -20,12 +32,12 @@
 	align-items: center;
 	list-style: none;
 
-	box-shadow: 0px 6px 4px palette.$shadow;
+	box-shadow: 0px 6px 4px $shadow;
 
 	font-size: 24px;
 
-	color: palette.$highlight;
-	background-color: palette.$light;
+	color: $title-font;
+	background-color: $background;
 
 	z-index: 1;
 
@@ -140,19 +152,20 @@
 		/* padding: 20px; */
 
 		text-decoration: none;
-		color: palette.$dark;
+		color: $title-font;
+		background-color: $button-background;
 
 		&:hover {
-			background-color: palette.$highlight;
+			background-color: $button-hover;
 			box-shadow: 0px 6px 4px palette.$shadow;
 		}
 
 		&:active {
-			background-color: palette.$neutral;
+			background-color: $button-active;
 		}
 
 		&:visited {
-			background-color: palette.$highlight;
+			background-color: $button-visited;
 		}
 	}
 }

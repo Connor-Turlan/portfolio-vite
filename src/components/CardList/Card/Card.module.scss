@@ -22,7 +22,7 @@
 
 	padding: 0px;
 
-	color: palette.$font-light;
+	color: palette.$font-dark;
 	background-color: palette.$light;
 
 	box-shadow: 0px 6px 24px palette.$shadow;
@@ -31,13 +31,11 @@
 }
 
 .Odd {
-	background-color: palette.$light;
-	/* background-color: palette.$bg-white;
-	border-left: 10px solid palette.$light; */
+	background-color: palette.$page-background;
+	box-shadow: 20px 0px 0px 0px palette.$light;
 }
 
 .Even {
-	background-color: palette.$neutral;
-	/* background-color: palette.$bg-white;
-	border-left: 10px solid palette.$neutral; */
+	background-color: palette.$page-background-dark;
+	box-shadow: 20px 0px 0px 0px palette.$neutral;
 }
