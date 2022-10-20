@@ -51,18 +51,18 @@
 		font-size: 32px;
 		letter-spacing: 10px;
 
-		color: palette.$font-white;
+		color: palette.$font-neutral;
 
 		margin: 0;
 	}
 }
 
 .Odd {
-	background: #b25068;
-	box-shadow: 20px 20px 36px #7d3849, -20px -20px 36px #e76887;
+	background: #fefefe;
+	box-shadow: 20px 20px 60px #b2b2b2, -20px -20px 60px #ffffff;
 }
 
 .Even {
-	background: #774360;
-	box-shadow: 20px 20px 36px #532f43, -20px -20px 36px #9b577d;
+	background: #eeeeee;
+	box-shadow: 20px 20px 60px #a7a7a7, -20px -20px 60px #ffffff;
 }

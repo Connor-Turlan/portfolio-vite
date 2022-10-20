@@ -10,7 +10,7 @@
 
 	padding: 0px;
 
-	background-color: palette.$dark;
+	background-color: palette.$site-background;
 }
 
 .Body {
@@ -30,7 +30,7 @@
 
 	font-family: typography.$main;
 
-	color: palette.$font-light;
+	color: palette.$font-dark;
 	background-color: palette.$light;
 
 	box-shadow: 0px 6px 24px palette.$shadow;
