@@ -24,6 +24,8 @@ const convertLanguagesToIcons = (language) => {
 			return <i className="devicon-python-plain" title={language}></i>;
 		case "spring":
 			return <i className="devicon-spring-plain" title={language}></i>;
+		case "django":
+			return <i className="devicon-django-plain" title={language}></i>;
 		default:
 			return <i className="devicon-html5-plain" title={language}></i>;
 	}
