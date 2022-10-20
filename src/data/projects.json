@@ -113,5 +113,17 @@
 			"source_link": "https://github.com/connorturlan/file-server-react",
 			"languages": ["html", "sass", "react", "javascript", "python"]
 		}
+	},
+	{
+		"description": {
+			"title": "Spring Resourcing API",
+			"content": "A Resourcing API using the Java Spring Boot framework, that allows consumers to assign temps to jobs."
+		},
+		"preview": {
+			"image": "https://raw.githubusercontent.com/connorturlan/spring-resourcing-api/main/docs/preview.png",
+			"project_link": "https://github.com/connorturlan/spring-resourcing-api",
+			"source_link": "https://github.com/connorturlan/spring-resourcing-api",
+			"languages": ["java", "spring"]
+		}
 	}
 ]
