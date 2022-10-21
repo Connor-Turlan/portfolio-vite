@@ -8,6 +8,7 @@
 	flex-direction: column;
 
 	min-height: 80vh;
+	padding-bottom: 20vh;
 
 	&__Grid {
 		display: grid;
@@ -29,35 +30,35 @@
 		list-style: none;
 
 		padding: 40px;
+
+		& > * {
+			@include defaults.flex-center;
+
+			@include devices.phone {
+				height: 100%;
+				width: 100%;
+			}
+
+			@include devices.tablet {
+				height: 100%;
+				width: 100%;
+			}
+
+			@include devices.desktop {
+				height: 100px;
+				width: 100px;
+			}
+
+			margin: 10px;
+
+			/* color: palette.$highlight; */
+			/* background-color: palette.$light; */
+
+			font-size: 72px;
+		}
 	}
 
 	&__Title {
 		margin: 40px;
-	}
-
-	&__Icon {
-		@include defaults.flex-center;
-
-		@include devices.phone {
-			height: 100%;
-			width: 100%;
-		}
-
-		@include devices.tablet {
-			height: 100%;
-			width: 100%;
-		}
-
-		@include devices.desktop {
-			height: 100px;
-			width: 100px;
-		}
-
-		margin: 10px;
-
-		/* color: palette.$highlight; */
-		/* background-color: palette.$light; */
-
-		font-size: 72px;
 	}
 }
