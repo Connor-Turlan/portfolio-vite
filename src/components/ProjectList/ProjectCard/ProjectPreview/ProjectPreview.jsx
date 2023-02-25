@@ -26,13 +26,29 @@ const convertLanguagesToIcons = (language) => {
 			return <i className="devicon-spring-plain" title={language}></i>;
 		case "django":
 			return <i className="devicon-django-plain" title={language}></i>;
+		case "aws":
+			return (
+				<i
+					className="devicon-amazonwebservices-original"
+					title={language}
+				></i>
+			);
+
 		default:
 			return <i className="devicon-html5-plain" title={language}></i>;
 	}
 };
 
 function ProjectPreview({ index, title, data }) {
-	const { image, project_link, source_link, languages } = data;
+	let { image, url, project_link, source_link, languages } = data;
+
+	if (url) {
+		project_link = project_link || `https://connorturlan.github.io/${url}`;
+		source_link = source_link || `https://github.com/connorturlan/${url}`;
+		image =
+			image ||
+			`https://raw.githubusercontent.com/connorturlan/${url}/main/docs/preview.png`;
+	}
 
 	const preview_class =
 		index % 2
