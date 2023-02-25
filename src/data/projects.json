@@ -125,5 +125,16 @@
 			"source_link": "https://github.com/connorturlan/spring-resourcing-api",
 			"languages": ["java", "spring"]
 		}
+	},
+	{
+		"description": {
+			"title": "UniSA Membership Verification",
+			"content": "A verification tool for membership's emails that informs the club of a member's current status."
+		},
+		"preview": {
+			"image": "images/unavailable.png",
+			"url": "unisa-membership-verification",
+			"languages": ["html", "sass", "react", "aws"]
+		}
 	}
 ]
