@@ -43,9 +43,11 @@ function ProjectPreview({ index, title, data }) {
 	let { image, url, project_link, source_link, languages } = data;
 
 	if (url) {
-		project_link = `https://connorturlan.github.io/${url}`;
-		source_link = `https://github.com/connorturlan/${url}`;
-		image = `https://raw.githubusercontent.com/connorturlan/${url}/main/docs/preview.png`;
+		project_link = project_link || `https://connorturlan.github.io/${url}`;
+		source_link = source_link || `https://github.com/connorturlan/${url}`;
+		image =
+			image ||
+			`https://raw.githubusercontent.com/connorturlan/${url}/main/docs/preview.png`;
 	}
 
 	const preview_class =
