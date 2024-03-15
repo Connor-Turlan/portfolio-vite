@@ -139,5 +139,15 @@
       "url": "python-web-ide",
       "languages": ["html", "sass", "react", "aws"]
     }
+  },
+  {
+    "description": {
+      "title": "UniSA Booking Register",
+      "content": "A tool that allows a user to register for when they are participating with the club. Uses AWS Lambda and DynamoDB for storing session data."
+    },
+    "preview": {
+      "url": "unisa-court-booking",
+      "languages": ["html", "sass", "react", "aws"]
+    }
   }
 ]
